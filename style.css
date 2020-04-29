@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+#img1{
+    transform: rotate(0);
+    transition: 3s cubic-bezier(1, 0.1, 0.1, 1) 0s;
+}
+#img2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tuong{
+    width: fit-content;
+    position: relative;
+}
+
+#bg-quay {
+    background: url(img/btn-spin.png) center center / contain no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    width: 25.5%;
+    height: 28.3%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#quay{
+    color: yellow;
+    font-size: 36px;
+}
